@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className={` nav-opt ${phone ? "show" : ""}`}>
         <div className="nav-btn" onClick={toggle}>
           <a href="#">
-            <div className="home">Home</div>
+            <div className="home" style={{color:"red"}}>Home</div>
           </a>
         </div>
         <div className="nav-btn" onClick={toggle}>
